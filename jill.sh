@@ -30,6 +30,7 @@ while getopts ":y" opt; do
       ;;
   esac
 done
+SKIP_CONFIRM=1
 
 # For Linux, this script installs Julia into $JULIA_DOWNLOAD and make a
 # link to $JULIA_INSTALL
